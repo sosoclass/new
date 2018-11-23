@@ -1,0 +1,27 @@
+{
+  "name": "mongoose_text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sosoclass/new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sosoclass/new/issues"
+  },
+  "homepage": "https://github.com/sosoclass/new#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "math": "0.0.3",
+    "mongoose": "^5.3.10"
+  },
+  "devDependencies": {},
+  "description": ""
+}
