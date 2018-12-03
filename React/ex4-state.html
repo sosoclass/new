@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="example1"></div>
+<script type="text/javascript" src="./tool/react.development.js"></script>
+<script type="text/javascript" src="./tool/react-dom.development.js"></script>
+<script type="text/javascript" src="./tool/babel.min.js"></script>
+<script type="text/babel">
+
+
+  //  class My1 extends React.Component {
+  //    state = {
+  //      isLikeMe: false
+  //    };
+  //
+  //    handleClick = ()=>{
+  //    this.setState({isLikeMe : !this.state.isLikeMe})
+  //    };
+  //
+  //    render(){
+  //      const {isLikeMe} = this.state;
+  //      return <h1 onClick={this.handleClick}>{isLikeMe?'你喜欢我':'我喜欢你'}</h1>
+  //    }
+  //  }
+  //  ReactDOM.render(<My1/>,document.getElementById('example1'))
+
+
+  class My2 extends React.Component {
+    state = {
+      isLikeMe: false
+    };
+    handleClick = () => {
+      this.setState({isLikeMe: !this.state.isLikeMe});
+    };
+    render() {
+      const {isLikeMe} = this.state;
+      return <h1 onClick={this.handleClick}>{isLikeMe ? '你喜欢我' : '我喜欢你'}</h1>
+    }
+  }
+
+  ReactDOM.render(<My2 />, document.getElementById('example1'))
+
+</script>
+</body>
+</html>
